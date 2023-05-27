@@ -1,11 +1,8 @@
 .App {
+  margin-top: -5%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,13 +12,30 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #00400c, #004d0e);
+  animation: gradient 0.5s ease infinite alternate;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-style : normal;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 252%;
+  margin-top: 2%;
+  height : 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-image: linear-gradient(to bottom right, #00400c, #004d0e);
+  }
+  50% {
+    background-image: linear-gradient(to bottom right, #004d0e, #00400c);
+  }
+  100% {
+    background-image: linear-gradient(to bottom right, #00400c, #004d0e);
+  }
 }
 
 .App-link {
@@ -36,3 +50,230 @@
     transform: rotate(360deg);
   }
 }
+
+/*Links*/
+
+.Links{
+  width : 70%;
+  display: flex;
+  filter: contrast(6.9%);
+  justify-content: center;
+}
+
+/*MenuBar*/
+
+
+.MenuBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color:  transparent;
+  color: #fff;
+}
+
+.MenuBar nav {
+  font-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: left;
+  padding-left:1%;
+}
+
+@media screen and (max-width: 768px) {
+  .MenuBar nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+}
+
+.barHeaders{
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  border-radius: 17%;
+  margin-right: 0.5%;
+  width:7.7%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.barHeadersSelected{
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  border-radius: 17%;
+  margin-right: 0.5%;
+  width:7.7%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.TopicFont {
+  font-size: 300%;
+  text-decoration: underline;
+  font-weight: 252;
+  padding: 3.7%;
+}
+
+/*Skills*/
+
+.SkillsDescription {
+  font-size: 200%;
+}
+
+.PLicons {
+  margin : 5%;
+  display : flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.PL:hover {
+  transform: rotateY(180deg) scale(1);
+  filter : contrast(47%);
+}
+
+.PL {
+  height: 200%;
+  width : 10%;
+  padding: 1%;
+  transition: transform 0.15s ease-in-out;
+}
+
+/* Projects */
+
+.ProjectsRow {
+  display : flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imgContainer {
+  width : 450px;
+  height : 450px;
+  overflow : hidden;
+  padding: 1%;
+  filter: contrast(70%);
+  border-radius: 16.9%;
+}
+
+.imgContainer:hover {
+  filter: contrast(100%);
+}
+
+.ProjectsRow img {
+  width : 100%;
+  height : 100%;
+  object-fit: cover;
+}
+
+/*exp*/
+.expButtonsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.expButton {
+  background-color: rgb(192, 244, 226);
+  border: solid transparent;
+  margin: 1%;
+  width:10%;
+  padding: 1%;
+  font-size: 150%;
+  font-weight: bolder;
+  width:30%;
+  font-family: cursive;
+}
+
+.expButton:hover {
+  background-color: rgb(61, 210, 158);
+
+}
+
+.expButtonActive {
+  background-color: rgb(192, 244, 226);
+  border: solid black;
+  border-radius:5%;
+  border-style:groove;
+  margin: 1%;
+  width:10%;
+  padding: 1%;
+  font-size: 150%;
+  font-weight: bolder;
+  width:30%;
+  font-family: cursive;
+}
+
+.timeline {
+  position: relative;
+  margin-top:5%;
+}
+
+.event {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left:37%;
+}
+
+.dot {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-252%);
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.content {
+  position: relative;
+  padding-bottom: 0%;
+  padding-left: 30%;
+  width : 100%;
+  padding-right: 30%;
+  font-size: 150%;
+}
+
+.title {
+  font-size: 120%;
+  text-align: left;
+
+}
+
+.content:hover  {
+  background-color: transparent;
+  border: solid black;
+}
+
+.year{
+  font-weight: light;
+  padding-top: 0%;
+  text-align: left;
+
+}
+.description {
+  color: black;
+  font-weight:500;
+  text-align: left;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-650%);
+  width: 10px;
+  height: 100%;
+  background-color: rgb(2, 121, 87);
+  z-index: -1;
+
+}
+

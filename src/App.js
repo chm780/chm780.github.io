@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 import Chm252 from './chm252';
-
 function App() {
   document.title = 'CHM';
   <head>

@@ -8,13 +8,13 @@ function Projects() {
         <h1 className = "TopicFont" id = "projects"> Projects </h1>
         <div className = "ProjectsRow">
             <a className = "imgContainer" target = "_blank" href="https://ay2223s1-cs2103t-t11-4.github.io/tp/">
-                <img src={ml} style = {{height : "110%"}}/>
+                <img src={ml} style = {{height : "110%" ,width:"100%"}}/>
             </a>
             <a className = "imgContainer" target = "_blank" href="https://github.com/chm252/Chatting-Bot-Duke">
-                <img src={duke}/>
+                <img src={duke} style = {{height : "110%",width:"100%"}}/>
             </a>
             <a className = "imgContainer" target = "_blank" href="https://github.com/chm252/EzMath">
-                <img src={ez}/>
+                <img src={ez} style = {{height : "110%",width:"100%"}}/>
             </a>
         </div>
         </>

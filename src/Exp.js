@@ -4,7 +4,6 @@ function Exp() {
 
 
     const education = (
-        <>
 <div class="timeline">
   <div class="event">
     <div class="dot"></div>
@@ -29,14 +28,11 @@ function Exp() {
       <p class="year">2013 - 2016</p>
       <p class="description">GCE O Levels <br/> Net L1R5 = 3, 7A1s</p>
     </div>
-  </div>
 </div>
-
-</>
+</div>
     );
 
     const career = (
-      <>
 <div class="timeline">
 <div class="event">
   <div class="dot"></div>
@@ -44,6 +40,18 @@ function Exp() {
     <h3 class="title">Land Transport Authority</h3>
     <p class="year">2023</p>
     <p class="description">Software Engineer Intern</p>
+  </div>
+</div>
+<div class="event">
+  <div class="dot"></div>
+  <div class="content">
+    <h3 class="title">Undergraduate Tutor @ National University of Singapore (NUS) </h3>
+    <p class="year">2023 - 2024</p>
+    <p class="description">
+      CS2107 Intro to Info Security <br/>
+      CS1231S Discrete Structure <br/>
+      CS2100 Computer Organisation (Lab)
+    </p>
   </div>
 </div>
 <div class="event">
@@ -61,12 +69,9 @@ function Exp() {
   </div>
 </div>
 </div>
-
-</>
   );
 
   const awards = (
-    <>
 <div class="timeline">
 
 <div class="event">
@@ -112,16 +117,13 @@ function Exp() {
     <p class="year">2015<br/>Nan Hua High School</p>
   </div>
 </div>
-
 </div>
-
-</>
   );
-    const [activeEdu, setActiveEdu] = useState('expButtonActive');
-    const [activeCareer, setActiveCareer] = useState('expButton');
+    const [activeEdu, setActiveEdu] = useState('expButton');
+    const [activeCareer, setActiveCareer] = useState('expButtonActive');
     const [activeAwards, setActiveAwards] = useState('expButton');
 
-    const [current, setCurrent] = useState(education);
+    const [current, setCurrent] = useState(career);
     const goEdu = () => {
       setCurrent(education);
       setActiveEdu('expButtonActive');

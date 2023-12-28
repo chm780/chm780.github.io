@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Projects from "./Projects";
 
 function MenuBar() {
     const [shouldShow, setShouldShow] = useState(false);
@@ -9,6 +10,10 @@ function MenuBar() {
     const f = () => console.log(window.scrollY);
     window.addEventListener("scroll", f);
     
+    const SKILLS_START = 990;
+    const PROJ_START = 2416;
+    const EXP_START = 3078;
+
     const passedMain  = () => {
       if (window.scrollY >= 769) {
         setShouldShow (true);
@@ -17,7 +22,7 @@ function MenuBar() {
       }
     };
     const passedSkills = () => {
-      if (window.scrollY >= 990 && window.scrollY < 2500) {
+      if (window.scrollY >= SKILLS_START && window.scrollY < PROJ_START) {
         setSkillsEffect ("barHeadersSelected");
       } else {
         setSkillsEffect("barHeaders");
@@ -25,7 +30,7 @@ function MenuBar() {
     }
 
     const passedProj = () => {
-      if (window.scrollY >= 2500 && window.scrollY < 3100) {
+      if (window.scrollY >= PROJ_START && window.scrollY < EXP_START) {
         setProjEffect ("barHeadersSelected");
       } else {
         setProjEffect("barHeaders");
@@ -33,7 +38,7 @@ function MenuBar() {
     }
 
     const passedExp = () => {
-      if (window.scrollY >= 3100 ) {
+      if (window.scrollY >= EXP_START ) {
         setExpEffect ("barHeadersSelected");
       } else {
         setExpEffect("barHeaders");

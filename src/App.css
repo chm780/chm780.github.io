@@ -211,6 +211,7 @@
 .timeline {
   position: relative;
   margin-top:5%;
+  left: -10%;
 }
 
 .event {
@@ -236,7 +237,6 @@
   position: relative;
   padding-bottom: 0%;
   padding-left: 30%;
-  width : 100%;
   padding-right: 30%;
   font-size: 150%;
 }
@@ -262,6 +262,7 @@
   color: black;
   font-weight:500;
   text-align: left;
+  width: 100%;
 }
 
 .timeline::before {

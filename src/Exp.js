@@ -10,7 +10,7 @@ function Exp() {
     <div class="content">
       <h3 class="title">National University of Singapore (NUS) </h3>
       <p class="year">Aug 2021 - Apr 2025</p>
-      <p class="description"> Computer Science (Honours) <br/> NUS Merit Scholarship recipient </p>
+      <p class="description"> Computer Science (Honours) <br/> NUS Merit Scholarship recipient <br/> GPA:4.52/5.00 </p>
     </div>
   </div>
   <div class="event">
@@ -37,6 +37,14 @@ function Exp() {
 <div class="event">
   <div class="dot"></div>
   <div class="content">
+    <h3 class="title">DSO National Laboratories</h3>
+    <p class="year">2024</p>
+    <p class="description">Software Security Engineer Intern</p>
+  </div>
+</div>
+<div class="event">
+  <div class="dot"></div>
+  <div class="content">
     <h3 class="title">Land Transport Authority</h3>
     <p class="year">2023</p>
     <p class="description">Software Engineer Intern</p>
@@ -46,26 +54,12 @@ function Exp() {
   <div class="dot"></div>
   <div class="content">
     <h3 class="title">Undergraduate Tutor @ National University of Singapore (NUS) </h3>
-    <p class="year">2023 - 2024</p>
+    <p class="year">2023 - 2025</p>
     <p class="description">
-      CS2107 Intro to Info Security <br/>
-      CS1231S Discrete Structure <br/>
-      CS2100 Computer Organisation (Lab)
+    Discrete Structures (CS1231S) AY2023/2024 Sem 1
+    Introduction to Information Security (CS2107) AY2023/2024 Sem 1 to 2, AY2024/2025 Sem 2
+    Big Data Systems for Data Science (CS4225) AY2024/2025 Sem 2
     </p>
-  </div>
-</div>
-<div class="event">
-  <div class="dot"></div>
-  <div class="content">
-    <h3 class="title">Indigo</h3>
-    <p class="description">Tutor for Mathematics and Science</p>
-  </div>
-</div>
-<div class="event">
-  <div class="dot"></div>
-  <div class="content">
-    <h3 class="title">Enterprise Singapore</h3>
-    <p class="description">Advise  business operators during Phase 2 and 3 heightened alert period</p>
   </div>
 </div>
 </div>
@@ -79,6 +73,8 @@ function Exp() {
     <div class="content">
       <h3 class="title">NUS Merit Scholarship</h3>
       <p class="year">2021</p>
+      <p class="description">"Highly coveted, NUS Scholarships are awarded to high calibre individuals who demonstrate academic excellence, present excellent co-curricular activities record and exhibit outstanding leadership qualities. NUS Scholars are expected to contribute to the NUS community while in NUS, and develop into dynamic global leaders capable of effecting positive societal change after they graduate." <br/> - NUS website
+      </p>
     </div>
   </div>
 

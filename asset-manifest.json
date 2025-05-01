@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d668ccd.css",
-    "main.js": "/static/js/main.5a70fb13.js",
+    "main.js": "/static/js/main.4397fbb5.js",
     "static/js/787.892e5207.chunk.js": "/static/js/787.892e5207.chunk.js",
     "static/media/duke.png": "/static/media/duke.6eca03b8eab5a4ee8bfd.png",
     "static/media/MassLinkers.png": "/static/media/MassLinkers.0663d4f4709c54983ca5.png",
@@ -10,11 +10,11 @@
     "static/media/ezMath.png": "/static/media/ezMath.da54561d233157e0064a.png",
     "index.html": "/index.html",
     "main.6d668ccd.css.map": "/static/css/main.6d668ccd.css.map",
-    "main.5a70fb13.js.map": "/static/js/main.5a70fb13.js.map",
+    "main.4397fbb5.js.map": "/static/js/main.4397fbb5.js.map",
     "787.892e5207.chunk.js.map": "/static/js/787.892e5207.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d668ccd.css",
-    "static/js/main.5a70fb13.js"
+    "static/js/main.4397fbb5.js"
   ]
 }

@@ -10,7 +10,7 @@ function Exp() {
     <div class="content">
       <h3 class="title">National University of Singapore (NUS) </h3>
       <p class="year">Aug 2021 - Apr 2025</p>
-      <p class="description"> Computer Science (Honours) <br/> NUS Merit Scholarship recipient <br/> GPA:4.52/5.00 </p>
+      <p class="description"> Computer Science (Honours) <br/> NUS Merit Scholarship recipient <br/>Final GPA:4.55/5.00 </p>
     </div>
   </div>
   <div class="event">
